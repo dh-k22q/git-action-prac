@@ -10,6 +10,7 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id; //아이디
 
+    private String title;
 
     public Post(Long id) {
         this.id = id;
